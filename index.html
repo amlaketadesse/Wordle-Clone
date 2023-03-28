@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="Shortcut icon" type="image/png" href="./assets/logo.png" />
+    <script src="./index.js"></script>
+
+    <title>Amlake's Wordle Clone</title>
+  </head>
+  <body>
+    <h1 id="title">WORDLE</h1>
+    <hr />
+    <br />
+    <div id="board">
+      <br />
+    </div>
+    <h1 id="answer"></h1>
+
+    <div class="rules">
+      <div class="tile__rules">
+        <h2>Rules:</h2>
+        <p>
+          Enter a 5-letter word.
+          <br />
+          You'll have 6 chances to guess the 5-letter word of the day.
+        </p>
+        <p>
+          Check the tile colors.
+          <br />
+          After you make a guess, the tile colors will change:
+          <br />
+          <br /><span class="green">
+            A green tile indicates that you've guessed the correct letter in the
+            correct place in the word.
+          </span>
+          <br />
+          <br />
+          <span class="yellow">
+            A yellow tile means you've guessed a letter that's in the word, but
+            not in the right spot.
+          </span>
+          <br />
+          <br />
+          <span class="grey">
+            A gray tile means that letter is not in today's word.
+          </span>
+        </p>
+      </div>
+    </div>
+
+  </body>
+</html>
